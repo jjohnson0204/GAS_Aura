@@ -1,0 +1,22 @@
+// Copyright Light1111
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "UI/WidgetController/AuraWidgetController.h"
+#include "AuraMenuWidgetController.generated.h"
+
+/**
+ * 
+ */
+UCLASS()
+class AURA_API UAttributeMenuWidgetController : public UAuraWidgetController
+{
+	GENERATED_BODY()
+
+public:
+
+	virtual void BindCallbacksToDependencies() override;
+	virtual void BroadcastInitialValues() override;
+	
+};
