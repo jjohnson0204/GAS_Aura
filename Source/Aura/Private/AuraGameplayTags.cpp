@@ -82,11 +82,11 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Attributes_Vital_Mana = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Attributes.Vital.Mana"),
 		FString("Reduces damage taken, improves Block Chance")
-	);
+	);*/
 
 	/**
 	 * Input Tags
-	 #1#
+	 */
 	GameplayTags.InputTag_LMB = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("InputTag.LMB"),
 		FString("Input Tag for Left Mouse Button")
@@ -112,7 +112,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FString("Input Tag for Number 4 Key")
 	);
 
-	/**
+	/*/**
 	 * Damage Tags
 	 #1#
 	GameplayTags.Damage = UGameplayTagsManager::Get().AddNativeGameplayTag(
@@ -134,9 +134,9 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Damage_Physical = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Damage.Physical"),
 		FString("Provides damage type physical")
-	);
+	);*/
 	
-	/**
+	/*/**
 	 * Resistance Tags
 	 #1#
 	GameplayTags.Attributes_Resistance_Fire = UGameplayTagsManager::Get().AddNativeGameplayTag(
@@ -154,9 +154,9 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Attributes_Resistance_Physical = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Attributes.Resistance.Physical"),
 		FString("Provides resistance type physical")
-	);
+	);*/
 
-	/**
+	/*/**
 	 * Map of Damage Types to Resistances
 	 #1#
 	GameplayTags.DamageTypesToResistances.Add(
@@ -174,25 +174,25 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.DamageTypesToResistances.Add(
 		GameplayTags.Damage_Physical,
 		GameplayTags.Attributes_Resistance_Physical
-	);
+	);*/
 	
-	/**
+	/*/**
 	 * Effect Tags
 	 #1#
 	GameplayTags.Effects_HitReact = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Effects.HitReact"),
 		FString("Reaction towards being hit")
-	);
+	);*/
 
-	/**
+	/*/**
 	 * Ability Tags
 	 #1#
 	GameplayTags.Abilities_Attack = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Abilities.Attack"),
 		FString("Attack Ability Tag")
-	);
+	);*/
 
-	/**
+	/*/**
 	 * Montage Tags
 	 #1#
 	GameplayTags.Montage_Attack_Weapon = UGameplayTagsManager::Get().AddNativeGameplayTag(

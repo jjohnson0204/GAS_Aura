@@ -39,7 +39,7 @@ public:
 
 	/*//Vital
 	FGameplayTag Attributes_Vital_Health;
-	FGameplayTag Attributes_Vital_Mana;
+	FGameplayTag Attributes_Vital_Mana;*/
 
 	//Input Tags
 	FGameplayTag InputTag_LMB;
@@ -49,28 +49,28 @@ public:
 	FGameplayTag InputTag_3;
 	FGameplayTag InputTag_4;
 	
-	// Damage Tags
+	/*// Damage Tags
 	FGameplayTag Damage;
 	FGameplayTag Damage_Fire;
 	FGameplayTag Damage_Lightning;
 	FGameplayTag Damage_Arcane;
-	FGameplayTag Damage_Physical;
+	FGameplayTag Damage_Physical;*/
 
-	// Resistances
+	/*// Resistances
 	FGameplayTag Attributes_Resistance_Fire;
 	FGameplayTag Attributes_Resistance_Lightning;
 	FGameplayTag Attributes_Resistance_Arcane;
-	FGameplayTag Attributes_Resistance_Physical;
+	FGameplayTag Attributes_Resistance_Physical;*/
 
-	TMap<FGameplayTag, FGameplayTag> DamageTypesToResistances;
+	/*TMap<FGameplayTag, FGameplayTag> DamageTypesToResistances;*/
 
-	//Effect Tags
-	FGameplayTag Effects_HitReact;
+	/*//Effect Tags
+	FGameplayTag Effects_HitReact;*/
 
-	//Abilities
-	FGameplayTag Abilities_Attack;
+	/*//Abilities
+	FGameplayTag Abilities_Attack;*/
 
-	FGameplayTag Montage_Attack_Weapon;
+	/*FGameplayTag Montage_Attack_Weapon;
 	FGameplayTag Montage_Attack_RightHand;
 	FGameplayTag Montage_Attack_LeftHand;*/
 
