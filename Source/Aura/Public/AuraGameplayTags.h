@@ -49,12 +49,12 @@ public:
 	FGameplayTag InputTag_3;
 	FGameplayTag InputTag_4;
 	
-	/*// Damage Tags
+	// Damage Tags
 	FGameplayTag Damage;
 	FGameplayTag Damage_Fire;
 	FGameplayTag Damage_Lightning;
 	FGameplayTag Damage_Arcane;
-	FGameplayTag Damage_Physical;*/
+	FGameplayTag Damage_Physical;
 
 	/*// Resistances
 	FGameplayTag Attributes_Resistance_Fire;

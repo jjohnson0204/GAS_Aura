@@ -112,9 +112,9 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FString("Input Tag for Number 4 Key")
 	);
 
-	/*/**
+	/**
 	 * Damage Tags
-	 #1#
+	 */
 	GameplayTags.Damage = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Damage"),
 		FString("Provides damage")
@@ -134,7 +134,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Damage_Physical = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Damage.Physical"),
 		FString("Provides damage type physical")
-	);*/
+	);
 	
 	/*/**
 	 * Resistance Tags
