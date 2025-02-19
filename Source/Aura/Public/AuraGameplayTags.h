@@ -64,8 +64,8 @@ public:
 
 	/*TMap<FGameplayTag, FGameplayTag> DamageTypesToResistances;*/
 
-	/*//Effect Tags
-	FGameplayTag Effects_HitReact;*/
+	//Effect Tags
+	FGameplayTag Effects_HitReact;
 
 	/*//Abilities
 	FGameplayTag Abilities_Attack;*/

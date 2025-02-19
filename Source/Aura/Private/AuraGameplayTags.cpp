@@ -176,13 +176,13 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		GameplayTags.Attributes_Resistance_Physical
 	);*/
 	
-	/*/**
+	/**
 	 * Effect Tags
-	 #1#
+	 */
 	GameplayTags.Effects_HitReact = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Effects.HitReact"),
 		FString("Reaction towards being hit")
-	);*/
+	);
 
 	/*/**
 	 * Ability Tags
