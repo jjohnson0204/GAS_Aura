@@ -135,6 +135,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FName("Damage.Physical"),
 		FString("Provides damage type physical")
 	);
+	GameplayTags.DamageTypes.Add(GameplayTags.Damage_Fire);
 	
 	/*/**
 	 * Resistance Tags
