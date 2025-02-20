@@ -135,11 +135,11 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FName("Damage.Physical"),
 		FString("Provides damage type physical")
 	);
-	GameplayTags.DamageTypes.Add(GameplayTags.Damage_Fire);
 	
-	/*/**
+	
+	/**
 	 * Resistance Tags
-	 #1#
+	 */
 	GameplayTags.Attributes_Resistance_Fire = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Attributes.Resistance.Fire"),
 		FString("Provides resistance type fire")
@@ -155,11 +155,11 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Attributes_Resistance_Physical = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Attributes.Resistance.Physical"),
 		FString("Provides resistance type physical")
-	);*/
+	);
 
-	/*/**
+	/**
 	 * Map of Damage Types to Resistances
-	 #1#
+	 */
 	GameplayTags.DamageTypesToResistances.Add(
 		GameplayTags.Damage_Arcane,
 		GameplayTags.Attributes_Resistance_Arcane
@@ -175,7 +175,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.DamageTypesToResistances.Add(
 		GameplayTags.Damage_Physical,
 		GameplayTags.Attributes_Resistance_Physical
-	);*/
+	);
 	
 	/**
 	 * Effect Tags

@@ -56,15 +56,13 @@ public:
 	FGameplayTag Damage_Arcane;
 	FGameplayTag Damage_Physical;
 
-	TArray<FGameplayTag> DamageTypes;
-
-	/*// Resistances
+	// Resistances
 	FGameplayTag Attributes_Resistance_Fire;
 	FGameplayTag Attributes_Resistance_Lightning;
 	FGameplayTag Attributes_Resistance_Arcane;
-	FGameplayTag Attributes_Resistance_Physical;*/
+	FGameplayTag Attributes_Resistance_Physical;
 
-	/*TMap<FGameplayTag, FGameplayTag> DamageTypesToResistances;*/
+	TMap<FGameplayTag, FGameplayTag> DamageTypesToResistances;
 
 	//Effect Tags
 	FGameplayTag Effects_HitReact;
