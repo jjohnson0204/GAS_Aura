@@ -185,13 +185,13 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FString("Reaction towards being hit")
 	);
 
-	/*/**
+	/**
 	 * Ability Tags
-	 #1#
+	 */
 	GameplayTags.Abilities_Attack = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Abilities.Attack"),
 		FString("Attack Ability Tag")
-	);*/
+	);
 
 	/*/**
 	 * Montage Tags

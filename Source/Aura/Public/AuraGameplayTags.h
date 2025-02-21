@@ -67,8 +67,8 @@ public:
 	//Effect Tags
 	FGameplayTag Effects_HitReact;
 
-	/*//Abilities
-	FGameplayTag Abilities_Attack;*/
+	//Abilities
+	FGameplayTag Abilities_Attack;
 
 	/*FGameplayTag Montage_Attack_Weapon;
 	FGameplayTag Montage_Attack_RightHand;
