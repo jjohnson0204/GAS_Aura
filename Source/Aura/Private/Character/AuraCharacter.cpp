@@ -78,7 +78,7 @@ void AAuraCharacter::MulticastLevelUpParticles_Implementation() const
 		LevelUpNiagaraComponent->SetWorldRotation(ToCameraRotation);
 		LevelUpNiagaraComponent->Activate(true);
 	}
-}=
+}
 
 int32 AAuraCharacter::GetXP_Implementation() const
 {
