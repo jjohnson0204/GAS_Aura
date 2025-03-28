@@ -71,18 +71,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FName("Attributes.Secondary.MaxMana"),
 		FString("Maximum amount of Mana obtainable")
 	);
-
-	/*/**
-	 * Vital Attributes
-	 #1#
-	GameplayTags.Attributes_Vital_Health = UGameplayTagsManager::Get().AddNativeGameplayTag(
-		FName("Attributes.Vital.Health"),
-		FString("Reduces damage taken, improves Block Chance")
-	);
-	GameplayTags.Attributes_Vital_Mana = UGameplayTagsManager::Get().AddNativeGameplayTag(
-		FName("Attributes.Vital.Mana"),
-		FString("Reduces damage taken, improves Block Chance")
-	);*/
+	
 
 	/**
 	 * Input Tags
@@ -207,6 +196,11 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	/**
 	 * Ability Tags
 	 */
+	GameplayTags.Abilities_None = UGameplayTagsManager::Get().AddNativeGameplayTag(
+		FName("Abilities.None"),
+		FString("No Ability - like the nullptr for Ability Tags")
+		);
+	
 	GameplayTags.Abilities_Attack = UGameplayTagsManager::Get().AddNativeGameplayTag(
 		FName("Abilities.Attack"),
 		FString("Attack Ability Tag")
